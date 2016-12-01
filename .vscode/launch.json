@@ -7,8 +7,15 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Day1_Prob1",
             "program": "${workspaceRoot}/Day1/problem1.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Day1_Prob2",
+            "program": "${workspaceRoot}/Day1/problem2.js",
             "cwd": "${workspaceRoot}"
         },
         {
