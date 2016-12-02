@@ -18,11 +18,44 @@
             "program": "${workspaceRoot}/Day1/problem2.js",
             "cwd": "${workspaceRoot}"
         },
+            {
+            "type": "node",
+            "request": "launch",
+            "name": "Day2_Prob1_Test",
+            "program": "${workspaceRoot}/Day2/problem1.js",
+            "args" : [ "test1.txt"],
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Day2_Prob1",
+            "program": "${workspaceRoot}/Day2/problem1.js",
+            "args" : [ "input.txt"],
+            "cwd": "${workspaceRoot}"
+        },
+         {
+            "type": "node",
+            "request": "launch",
+            "name": "Day2_Prob2_Test",
+            "program": "${workspaceRoot}/Day2/problem2.js",
+            "args" : [ "test1.txt"],
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Day2_Prob2",
+            "program": "${workspaceRoot}/Day2/problem2.js",
+            "args" : [ "input.txt"],
+            "cwd": "${workspaceRoot}"
+        },
         {
             "type": "node",
             "request": "attach",
             "name": "Attach to Process",
             "port": 5858
-        }
+        },
+        
     ]
 }
