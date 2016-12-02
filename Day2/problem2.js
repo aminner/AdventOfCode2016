@@ -24,6 +24,7 @@ function start()
 function processInstructions(index, inputLines)
 {
     if(index >= inputLines.length) {
+        console.log(finalPinCode);
         return;
     }
     var inputData = inputLines[index];
@@ -31,8 +32,6 @@ function processInstructions(index, inputLines)
     {
         processInstructions(++index, inputLines);
     });
-
-
 }
 
 var x=3, y=0;
@@ -70,6 +69,5 @@ function processInput(inputData, callback) {
 function addNumberToPinCode(x, y)
 {
     finalPinCode += "" + numberPad[x][y];
-    console.log(finalPinCode);
 }
 start();
