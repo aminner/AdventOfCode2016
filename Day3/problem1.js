@@ -1,6 +1,5 @@
 var utils = require("../AOCUtils.js")
 const BASE_PATH = "./Day3/" 
-var readline = require('readline');
 
 function start()
 {

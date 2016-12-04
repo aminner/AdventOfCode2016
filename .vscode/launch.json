@@ -82,6 +82,22 @@
             "args" : [ "input.txt"],
             "cwd": "${workspaceRoot}"
         },
+                     {
+            "type": "node",
+            "request": "launch",
+            "name": "Day4_Prob1_Test",
+            "program": "${workspaceRoot}/Day4/problem1.js",
+            "args" : [ "test1.txt"],
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Day4_Prob1",
+            "program": "${workspaceRoot}/Day4/problem1.js",
+            "args" : [ "input.txt"],
+            "cwd": "${workspaceRoot}"
+        },
         {
             "type": "node",
             "request": "attach",
