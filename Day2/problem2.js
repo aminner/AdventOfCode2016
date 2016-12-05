@@ -11,6 +11,7 @@ function start()
     {
       inputFileName = process.argv[2];
     }
+
     var filePath = BASE_PATH + inputFileName;
     console.log(filePath);
     utils.read(filePath, { error: function(error){

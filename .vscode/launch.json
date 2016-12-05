@@ -52,6 +52,22 @@
         },
         {
             "type": "node",
+            "request": "launch",
+            "name": "Day4_Prob1",
+            "program": "${workspaceRoot}/Day4/problem1.js",
+            "args" : [ "input.txt"],
+            "cwd": "${workspaceRoot}"
+        },
+             {
+            "type": "node",
+            "request": "launch",
+            "name": "Day4_Prob2",
+            "program": "${workspaceRoot}/Day4/problem2.js",
+            "args" : [ "input.txt"],
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
             "request": "attach",
             "name": "Attach to Process",
             "port": 5858
