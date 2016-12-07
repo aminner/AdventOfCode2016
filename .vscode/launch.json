@@ -50,6 +50,54 @@
             "args" : [ "input.txt"],
             "cwd": "${workspaceRoot}"
         },
+           {
+            "type": "node",
+            "request": "launch",
+            "name": "Day3_Prob1_Test",
+            "program": "${workspaceRoot}/Day3/problem1.js",
+            "args" : [ "test1.txt"],
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Day3_Prob1",
+            "program": "${workspaceRoot}/Day3/problem1.js",
+            "args" : [ "input.txt"],
+            "cwd": "${workspaceRoot}"
+        },
+                {
+            "type": "node",
+            "request": "launch",
+            "name": "Day3_Prob2_Test",
+            "program": "${workspaceRoot}/Day3/problem2.js",
+            "args" : [ "test2.txt"],
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Day3_Prob2",
+            "program": "${workspaceRoot}/Day3/problem2.js",
+            "args" : [ "input.txt"],
+            "cwd": "${workspaceRoot}"
+        },
+                     {
+            "type": "node",
+            "request": "launch",
+            "name": "Day4_Prob1_Test",
+            "program": "${workspaceRoot}/Day4/problem1.js",
+            "args" : [ "test1.txt"],
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Day4_Prob1",
+            "program": "${workspaceRoot}/Day4/problem1.js",
+            "args" : [ "input.txt"],
+            "cwd": "${workspaceRoot}"
+        },
         {
             "type": "node",
             "request": "launch",
@@ -119,7 +167,6 @@
             "request": "attach",
             "name": "Attach to Process",
             "port": 5858
-        },
-        
+        }
     ]
 }
