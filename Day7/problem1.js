@@ -31,7 +31,7 @@ function processInput(inputLines)
         
         linePieces.forEach(function(piece)
         {
-            var isHypernet = piece.match(regEx) !=null;
+            var isHypernet = piece.match(regEx);
             for(var i=0; i <= piece.length-4; i++)
             {
                 var subPieceToCheck = piece.substring(i, i+4);
